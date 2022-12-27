@@ -1,0 +1,43 @@
+name: website
+description: My website.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  statsfl: ^2.3.0
+
+  local_hero: ^0.2.0
+
+  url_launcher: ^6.1.7
+
+  firebase_core: ^2.4.0
+
+  firebase_analytics: ^10.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+  - family: Century Gothic
+    fonts:
+    - asset: fonts/CenturyGothic.ttf
+    - asset: fonts/CenturyGothic_Bold.ttf
+      weight: 700
