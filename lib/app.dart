@@ -37,7 +37,7 @@ class _AppState extends State<App> {
           textTheme: whiteGothic,
           fontFamily: 'Century Gothic'),
       themeMode: settings.themeMode,
-      home: const HomePage(title: 'QuasiStellar'),
+      home: const HomePage(),
     );
   }
 }
