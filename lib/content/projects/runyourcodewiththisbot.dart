@@ -5,7 +5,6 @@ import 'package:website/content/main_menu.dart';
 import 'package:website/content/projects.dart';
 import 'package:website/content_page_component.dart';
 
-import '../../content.dart';
 import '../../content_page.dart';
 import '../../sizes.dart';
 import '../../utils/outlined_text.dart';

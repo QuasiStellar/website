@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:local_hero/local_hero.dart';
-import 'package:website/content.dart';
 import 'package:website/content/contacts.dart';
 import 'package:website/content/projects.dart';
 import 'package:website/content_page.dart';

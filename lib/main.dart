@@ -13,14 +13,14 @@ void main() async {
   );
   runApp(kDebugMode
       ? StatsFl(
-      isEnabled: true,
-      width: 600,
-      height: 20,
-      maxFps: 90,
-      showText: true,
-      sampleTime: .5,
-      totalTime: 15,
-      align: Alignment.topLeft,
-      child: const App())
+          isEnabled: true,
+          width: 600,
+          height: 20,
+          maxFps: 90,
+          showText: true,
+          sampleTime: .5,
+          totalTime: 15,
+          align: Alignment.topLeft,
+          child: const App())
       : const App());
 }

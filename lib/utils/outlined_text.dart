@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import '../sizes.dart';
 
 class OutlinedText extends StatelessWidget {
-  const OutlinedText(this.data, {
+  const OutlinedText(
+    this.data, {
     super.key,
     this.outlineColor,
     this.style,
@@ -38,8 +39,7 @@ class OutlinedText extends StatelessWidget {
   final Color? selectionColor;
 
   @override
-  Widget build(BuildContext context) =>
-      Stack(
+  Widget build(BuildContext context) => Stack(
         children: [
           Text(
             data,

@@ -4,7 +4,6 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:website/content/main_menu.dart';
 import 'package:website/content_page_component.dart';
 
-import '../content.dart';
 import '../content_page.dart';
 import '../sizes.dart';
 import '../utils/outlined_text.dart';
@@ -25,9 +24,7 @@ class Contacts extends StatelessWidget implements ContentPage {
           LocalHero(
             tag: "divider1",
             child: VerticalDivider(
-              color: Theme
-                  .of(context)
-                  .primaryColor,
+              color: Theme.of(context).primaryColor,
             ),
           ),
           ContactsComponent(switchPage, isThin: false),
@@ -105,8 +102,7 @@ class ContactsComponent extends StatelessWidget
             onTap: () async =>
                 await launchUrl(Uri.https("vk.com", "/quasistellar")),
           ),
-          if (isThin)
-            const SizedBox(height: largeVerticalInterval),
+          if (isThin) const SizedBox(height: largeVerticalInterval),
           if (isThin)
             FloatingActionButton(
               onPressed: () => switchPage(MainMenu(switchPage)),

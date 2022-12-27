@@ -9,7 +9,6 @@ import 'package:website/content/projects/runyourcodewiththisbot.dart';
 import 'package:website/content/projects/stockshrew.dart';
 import 'package:website/content_page_component.dart';
 
-import '../content.dart';
 import '../content_page.dart';
 import '../sizes.dart';
 import '../utils/outlined_text.dart';

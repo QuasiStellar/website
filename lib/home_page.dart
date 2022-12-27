@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:website/background/bg_animator.dart';
+import 'package:website/globals/settings.dart';
 import 'package:website/sizes.dart';
 import 'package:website/utils/outlined_text.dart';
-import 'package:website/globals/settings.dart';
 
 import 'content.dart';
 
@@ -16,7 +16,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,7 +27,8 @@ class _HomePageState extends State<HomePage> {
               Center(
                 child: Column(
                   children: const [
-                    SizedBox(height: verticalLogoIndent - logoFontSize / 2 - 10),
+                    SizedBox(
+                        height: verticalLogoIndent - logoFontSize / 2 - 10),
                     OutlinedText(
                       "quasistellar",
                       style: TextStyle(
